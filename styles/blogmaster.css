@@ -35,13 +35,17 @@
 .tile {
   color: #333;
   text-align: center;
-  border: 2px solid;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgb(0 0 0 / 25%);
 }
 
 .picture img {
   max-width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: x-large;
+}
+
+a {
+  color: #333;
 }
