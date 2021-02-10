@@ -1,68 +1,47 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .body-style {
-    background-color: #F4F3F0;
-    font-family: 'Exo', sans-serif;
+  background-color: #f4f3f0;
+  font-family: "Exo", sans-serif;
 }
 
 .header-style {
-    grid-area: 1/1/2/5;
-    text-align: center;
+  text-align: center;
+  font-size: xxx-large;
+  padding: 50px 0 20px 0;
 }
 
-.menu{
-    grid-area: 2/1/3/5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: x-large;
+  padding: 0px 0px 30px 0px;
 }
 
 .menu li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .menu a {
-    color: #333;
-}
-   
-.tile1 {
-    grid-area: 3/1/5/3;
-    color: #333;
-    text-align: center;
+  color: #333;
 }
 
-.tile2 {
-    grid-area: 3/3/5/5;
-    color: #333;
-    text-align: center;
-}
-
-.tile3 {
-    grid-area: 5/1/7/3;
-    color: #333;
-    text-align: center;
-}
-
-.tile4 {
-    grid-area: 5/3/7/5;
-    color: #333;
-    text-align: center;
+.tile {
+  color: #333;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 25%);
 }
 
 .picture img {
-    max-width: 100%;
-}
-
-.container {
-    width: 100%;
-    max-height: fit-content;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-gap: 20px;
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
