@@ -2,34 +2,65 @@
 <html>
   <head>
     <title>My blog</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale-1">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/grid-layout.css" rel="stylesheet" type="text/css" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="body-details">
-    <div class="container">
-      <div class="header">
-        <h1 class=>My Musings in the Night</h1>
+    <div class="grid">
+      <div class="col">
+        <h1 class="header">Midnight musings</h1>
       </div>
 
-      <ul class="menu">
-         <li>
-            <a href="https://rogan-templer.github.io/">Home</a> 
-          </li>
-        
+      <div class="col">
+        <ul class="menu">
           <li>
-           <a href="blog/blog-master-page.html">Blogs</a> 
+            <a href="https://rogan-templer.github.io/">Home</a>
           </li>
-  
+
+          <li>
+            <a href="/blog/blog-master-page.html">Blogs</a>
+          </li>
+
           <li>
             <a href="#">Me</a>
           </li>
-        
-      </ul>
+        </ul>
+      </div>
+
+      <div class="col m-6">
+        <div class="picture">
+          <img
+            src="image/me650x400.jpg"
+            alt="Watching the Sunrise over the Tor on Auckland's North Shore"
+          />
+        </div>
+      </div>
+
+      <div class="col m-6">
+        <div>
+          <h4>Hi there!</h4>
+          <br />
+          <p>
+            Welcome to my site which will serve as a portal on the time I have
+            here at EDA. Here I will record a number of reflections and musings
+            on code and the likes - if this at all interests you please follow
+            the blog tab - but you have been warned!!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
+      
 
       <div class="col-1">
         <span class="picture">
@@ -44,13 +75,6 @@
             interests you please follow the blog tab - but you have been warned!!</p>
       </div> 
 
-    </div>
-  
-  
-  
-  
-  
+    </div> -->
   </body>
-
-  
 </html>
