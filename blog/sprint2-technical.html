@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Borders, Margins and Padding</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+    <link href="../styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/grid-layout.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../styles/blog-post-style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <body class="body-style">
+      <div class="grid">
+        <div class="col">
+          <h1 class="header-style">Technical</h1>
+        </div>
+
+        <div class="col">
+          <ul class="menu">
+            <li>
+              <a href="https://rogan-templer.github.io/">Home</a>
+            </li>
+
+            <li>
+              <a href="../blog/blog-master-page.html">Blogs</a>
+            </li>
+
+            <li>
+              <a href="#">Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          Margin, Borders and Padding - what’s the fuss anyway? Glad you asked,
+          there are a few distinct differences and understanding these will help
+          see when and where you should be using each. Lets start off with a
+          picture first:
+        </p>
+      </div>
+
+      <div class="col">
+        <div class="picture">
+          <img
+            src="/image/marginPadding.png"
+            alt="Margin, Padding and Border Example Image"
+          />
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          So what does this show us? Well basically the margin refers to the
+          area around an element and the padding is the space between the
+          element and the content inside the element. And they all get contained
+          within a border. Great… so how does this affect us? Well essentially
+          we can use this to create gaps between elements on our web pages -
+          which is super important for making the presentation and look of your
+          web page “just so” - as well as how our content either grows or
+          shrinks in its specific spaces. So what are some practical examples of
+          this? Let’s start off with padding. In the example below we have two
+          boxes, green and blue, inside of a white box. Both of them are super
+          skinny and the borders (the black outlines) are right up flush against
+          the text as there is no padding present - see how the padding value in
+          .green-box and .blue box is set to 0px
+        </p>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/padding1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/padding2.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          Now if we increase the padding value to 20px in each we see the
+          borders of those elements get pushed out by 20px both above and below
+          the text giving the content more breathing room.
+        </p>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/padding3.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/padding4.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          What about the Margin? We’ll use this value to affect the white space
+          around our two coloured boxes. To start off we can see that the two
+          boxes are evenly spaced from each other and in their relative
+          positions to the outer border.
+        </p>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/margin1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/margin2.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          If we change the margin value for the green box to 40px we should
+          expect that box to decrease in size and the blue box to move further
+          away from it. Note how the blue boxes margin of 10px has kept a
+          smaller distance between its border and the outer border of the main
+          box.
+        </p>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/margin3.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/margin4.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          Which leaves the border. Well like its name suggests it is what binds
+          around the outside of a specific area containing an element as
+          illustrated back in the first picture. You can control how thick it is
+          and if you want it to have pointed or rounded edges. By adding in the
+          line border-radius: 10px we have rounded out the border edges -
+          choice!
+        </p>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/border3.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col s-6">
+        <div class="picture">
+          <img src="/image/border4.png" alt="" />
+        </div>
+      </div>
+
+      <div class="col">
+        <p>
+          So in conclusion think of all of this as social distancing for your
+          pages elements and content and the cool thing is you get to decide how
+          draconian those social distancing rules need to be!
+        </p>
+      </div>
+    </body>
+  </head>
+</html>
