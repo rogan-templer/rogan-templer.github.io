@@ -35,3 +35,17 @@
 .picture img {
   max-width: 100%;
 }
+
+.placement {
+  text-align: center;
+}
+
+.first-pic {
+  margin: 50px;
+}
+
+p {
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
+}
