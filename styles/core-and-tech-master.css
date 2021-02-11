@@ -31,3 +31,11 @@
 .menu a {
   color: #333;
 }
+
+.picture img {
+  max-width: 100%;
+}
+
+p {
+  margin: 100px 0px 0px 20px;
+}
