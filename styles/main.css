@@ -1,6 +1,8 @@
 .body-details {
   background-color: #f4f3f0;
   font-family: "Exo", sans-serif;
+  margin: 15px;
+  padding: 5px;
 }
 
 .header {
