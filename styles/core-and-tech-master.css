@@ -8,6 +8,8 @@
 .body-style {
   background-color: #f4f3f0;
   font-family: "Exo", sans-serif;
+  margin: 15px;
+  padding: 5px;
 }
 
 .header-style {
@@ -38,9 +40,11 @@
 
 h2 {
   margin: 20px 0px 0px 20px;
+  color: #333;
 }
 
 p {
   margin: 15px 0px 0px 20px;
   font-size: 18px;
+  color: #333;
 }
