@@ -18,6 +18,7 @@
   justify-content: space-around;
   font-size: x-large;
   padding: 0px 0px 30px 0px;
+  margin: 10px;
 }
 
 .menu li {
@@ -32,7 +33,16 @@
   max-width: 100%;
 }
 
-h4 {
+.spacing {
+  margin: 10px;
+}
+
+h2 {
   text-align: center;
-  font-size: x-large;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  text-align: inherit;
 }
