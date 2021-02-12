@@ -38,6 +38,10 @@
   max-width: 100%;
 }
 
+.article-spacing {
+  padding: 0px 0px 10px 0px;
+}
+
 h2 {
   margin: 20px 0px 0px 20px;
   color: #333;
@@ -48,5 +52,9 @@ p {
   margin: 15px 0px 0px 20px;
   line-height: 25px;
   font-size: 18px;
+  color: #333;
+}
+
+a {
   color: #333;
 }
