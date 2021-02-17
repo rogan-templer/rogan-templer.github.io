@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Emotional Intelligence.</title>
+    <title>JavaScript, the DOM and their uses.</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -21,27 +21,210 @@
 
   <body class="body-style">
     <div class="grid">
-        <div class="col">
-          <h1 class="header-style">Emotional Intelligence.</h1>
+      <div class="col">
+        <h1 class="header-style">JavaScript, the DOM and their uses.</h1>
+      </div>
+
+      <div class="col">
+        <ul class="menu">
+          <li>
+            <a href="https://rogan-templer.github.io/">Home</a>
+          </li>
+
+          <li>
+            <a href="../blog/blog-master-page.html">Blogs</a>
+          </li>
+
+          <li>
+            <a href="#">Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <div>
+          <h2 class="col s-4">HTML & CSS - The differences between the two</h2>
         </div>
-  
         <div class="col">
-          <ul class="menu">
-            <li>
-              <a href="https://rogan-templer.github.io/">Home</a>
-            </li>
-  
-            <li>
-              <a href="../blog/blog-master-page.html">Blogs</a>
-            </li>
-  
-            <li>
-              <a href="#">Me</a>
-            </li>
-          </ul>
+          <p class="col">
+            HTML and CSS are two different types of code that work together to
+            produce a result, however in saying that they are quite different in
+            their functions.
+          </p>
+          <br />
+          <p class="col">
+            Let's imagine an artists canvas: They have their large blank canvas
+            on which they can create the outline of the scene they wish to
+            paint. That canvas and the outline are the HTML - they provide the
+            structure and content of the picture, however on their own that is
+            all they are.
+          </p>
+          <br />
+          <p class="col">
+            The CSS is the artists paint palette - this is how they bring the
+            picture to life with colour and shading and turn the picture from a
+            bare bones concept to its fullest expression.
+          </p>
         </div>
+      </div>
+      <br />
+      <br />
+      <div class="col">
+        <div>
+          <h2 class="col s-4">Control Flow and Loops</h2>
+        </div>
+        <div>
+          <p class="col">
+            Control flow is the order in which code will be run in a programme
+            or application. So the order the code is laid out in is very
+            important as this is the order the application will follow - in
+            terms of surfing you would first wax your board, put on your
+            wetsuit, paddle out and then catch a wave - that is the order you
+            would follow to achieve your surf session.
+          </p>
+          <br />
+          <p class="col">
+            Looping is when a function runs multiple times until it ends or is
+            told to end. To stick with our surfing analogy a loop in this
+            instance would be catch wave, paddle back to line up, catch wave,
+            paddle back and so on until you finish your session.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="col">
+        <div>
+          <h2 class="col s-4">What is the DOM?</h2>
+        </div>
+        <div>
+          <p class="col">
+            The DOM acts as an interface for HTML documents and allows other
+            programming languages to connect to it and carry out functions.
+          </p>
+          <br />
+          <p class="col">
+            It breaks a page into different Nodes and these nodes allow
+            programming languages (such as JavaScript) to connect to the page
+            and affect the content of the page and how user interactions with
+            the page are interpreted.
+          </p>
+          <br />
+          <p class="col">
+            You can interact with the DOM via the developer tools panel and here
+            you can test how changes to a styling sheet will affect the page.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="col">
+        <div>
+          <h2 class="col s-4">Accessing data from Arrays and Objects.</h2>
+        </div>
+        <div>
+          <p class="col">
+            First off it is important to understand the difference between
+            Objects and arrays:
+          </p>
+          <div>
+            <h3 class="col s-4">Objects</h3>
+          </div>
+          <p class="col">
+            Objects allow you to store a number of different types of data under
+            one umbrella such as this:
+          </p>
+          <br />
+          <div class="col">
+            <div class="picture placement">
+              <img
+                src="../image/object.png"
+                alt="A snip of code illustrating an object"
+              />
+            </div>
+          </div>
+          <br />
+          <p class="col">
+            In this instance the object is the Artist and it contains a number
+            of elements such as the artist name, album name and year released.
+            To access the information in the Object you would use what is known
+            as dot-notation to call on the parts of the object you wish to see.
+          </p>
+          <br />
+          <div class="col">
+            <div class="picture placement">
+              <img
+                src="../image/object-returned.png"
+                alt="A snip of code illustrating an object element being accessed"
+              />
+            </div>
+          </div>
+          <br />
+          <div>
+            <h3 class="col s-4">Arrays</h3>
+          </div>
+          <p class="col">
+            Arrays hold a number of similar items such as a list of different
+            surf boards as shown below:
+          </p>
+          <br />
+          <div class="col">
+            <div class="picture placement">
+              <img
+                src="../image/array.png"
+                alt="A snip of code illustrating an array"
+              />
+            </div>
+          </div>
+          <br />
+          <p class="col">
+            Javascript stores this information in a zero based index - meaning
+            that the items are in order from 0 upwards. So when a call such as
+            the one below is made it will return ‘short board’ as the answer as
+            ‘1’ is the second item in the list if we are counting from 0
+            upwards.
+          </p>
+          <br />
+          <div class="col">
+            <div class="picture placement">
+              <img
+                src="../image/array-returned.png"
+                alt="A snip of code illustrating an array item being accessed"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="col">
+        <div>
+          <h2 class="col s-4">Functions and their use.</h2>
+        </div>
+        <div>
+          <p class="col">
+            Functions in JavaScript allow you to run a defined piece of code
+            numerous times. This is extremely useful if you are looking to
+            repeat certain actions a number of times - for example if you wanted
+            to run a temperature converter:
+          </p>
+          <br />
+          <div class="col">
+            <div class="picture placement">
+              <img
+                src="../image/temp-conversion.png"
+                alt="A snip of code illustrating a temperature conversion function"
+              />
+            </div>
+          </div>
+          <br />
+          <p class="col">
+            The bloc of code above could be run as many times as you wanted to
+            call it without needed to repeat the calculation again and again in
+            your process.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
-
-
-
-</html>  
+</html>
