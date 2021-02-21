@@ -66,3 +66,12 @@ p {
   font-size: 18px;
   line-height: 25px;
 }
+
+ol {
+  margin: 0px 0px 0px 30px;
+  list-style: disc;
+}
+
+a {
+  color: #333;
+}
