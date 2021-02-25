@@ -75,3 +75,8 @@ ol {
 a {
   color: #333;
 }
+
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
