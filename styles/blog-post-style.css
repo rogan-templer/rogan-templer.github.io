@@ -84,3 +84,10 @@ b {
   font-weight: bold;
   text-decoration: underline;
 }
+
+hr {
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+  height: 2px;
+}
